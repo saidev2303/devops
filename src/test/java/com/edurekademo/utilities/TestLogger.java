@@ -9,6 +9,7 @@ public class TestLogger {
         private static final Logger LOG = LoggerFactory.getLogger(TestLogger.class);
         @Test
         public void testGetErrorMessage1() {
+		int x=0;
                 String s = "Not Implemented";
                 try { 
                         int f = 1/0; 
